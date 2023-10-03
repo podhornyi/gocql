@@ -312,7 +312,7 @@ func (c *Conn) init(ctx context.Context, dialedHost *DialedHost) error {
 	}
 
 	go c.serve(ctx)
-	go c.heartBeat(ctx)
+	//go c.heartBeat(ctx)
 
 	return nil
 }
